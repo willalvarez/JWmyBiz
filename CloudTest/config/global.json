@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "myBiz": {
+            "applicationId": "ATjtWMM3YXuluss429dEimZF8FKcMFZUzFVC1xtp", 
+            "masterKey": "k5izuhjDaTKoSRpab3VkjXNsOPqk7z7z75Bak2AM"
+        }, 
+        "_default": {
+            "link": "myBiz"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.2.1"
+    }
+}
