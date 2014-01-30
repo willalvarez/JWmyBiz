@@ -25,7 +25,6 @@
 		18148CE3185E833300E9999A /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18148CE2185E833300E9999A /* libz.1.1.3.dylib */; };
 		18148CE5185E834900E9999A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18148CE4185E834900E9999A /* MobileCoreServices.framework */; };
 		18148CE7185E835700E9999A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18148CE6185E835700E9999A /* QuartzCore.framework */; };
-		18148CE9185E836700E9999A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18148CE8185E836700E9999A /* StoreKit.framework */; };
 		18148CEB185E837300E9999A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18148CEA185E837300E9999A /* SystemConfiguration.framework */; };
 		18148CF5185E8C2F00E9999A /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18148CF4185E8C2F00E9999A /* Parse.framework */; };
 		18148D01185EC42700E9999A /* FBLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 18148CFD185EC42700E9999A /* FBLogin.png */; };
@@ -221,7 +220,6 @@
 		18148CE2185E833300E9999A /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
 		18148CE4185E834900E9999A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		18148CE6185E835700E9999A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		18148CE8185E836700E9999A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		18148CEA185E837300E9999A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		18148CF4185E8C2F00E9999A /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		18148CFD185EC42700E9999A /* FBLogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FBLogin.png; sourceTree = "<group>"; };
@@ -240,19 +238,19 @@
 		18342814186B580C00B3AA66 /* JWProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWProduct.m; sourceTree = "<group>"; };
 		1836761E1891FEDD00DF87D9 /* WStripeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WStripeViewController.h; sourceTree = "<group>"; };
 		1836761F1891FEDD00DF87D9 /* WStripeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WStripeViewController.m; sourceTree = "<group>"; };
-		1836762218929F1800DF87D9 /* PKAddressZip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKAddressZip.h; sourceTree = "<group>"; };
-		1836762318929F1800DF87D9 /* PKAddressZip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKAddressZip.m; sourceTree = "<group>"; };
-		1836762418929F1800DF87D9 /* PKCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKCard.h; sourceTree = "<group>"; };
-		1836762518929F1800DF87D9 /* PKCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKCard.m; sourceTree = "<group>"; };
-		1836762618929F1800DF87D9 /* PKCardCVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKCardCVC.h; sourceTree = "<group>"; };
-		1836762718929F1800DF87D9 /* PKCardCVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKCardCVC.m; sourceTree = "<group>"; };
-		1836762818929F1800DF87D9 /* PKCardExpiry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKCardExpiry.h; sourceTree = "<group>"; };
-		1836762918929F1800DF87D9 /* PKCardExpiry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKCardExpiry.m; sourceTree = "<group>"; };
-		1836762A18929F1800DF87D9 /* PKCardNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKCardNumber.h; sourceTree = "<group>"; };
-		1836762B18929F1800DF87D9 /* PKCardNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKCardNumber.m; sourceTree = "<group>"; };
-		1836762C18929F1800DF87D9 /* PKCardType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKCardType.h; sourceTree = "<group>"; };
-		1836762F18929F1800DF87D9 /* PKUSAddressZip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKUSAddressZip.h; sourceTree = "<group>"; };
-		1836763018929F1800DF87D9 /* PKUSAddressZip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKUSAddressZip.m; sourceTree = "<group>"; };
+		1836762218929F1800DF87D9 /* PKAddressZip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKAddressZip.h; path = "../../stripe-ios/Stripe/Vendor/PaymentKit/PaymentKit/PKAddressZip.h"; sourceTree = "<group>"; };
+		1836762318929F1800DF87D9 /* PKAddressZip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKAddressZip.m; path = "../../stripe-ios/Stripe/Vendor/PaymentKit/PaymentKit/PKAddressZip.m"; sourceTree = "<group>"; };
+		1836762418929F1800DF87D9 /* PKCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKCard.h; path = "../../stripe-ios/Stripe/Vendor/PaymentKit/PaymentKit/PKCard.h"; sourceTree = "<group>"; };
+		1836762518929F1800DF87D9 /* PKCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKCard.m; path = "../../stripe-ios/Stripe/Vendor/PaymentKit/PaymentKit/PKCard.m"; sourceTree = "<group>"; };
+		1836762618929F1800DF87D9 /* PKCardCVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKCardCVC.h; path = "../../stripe-ios/Stripe/Vendor/PaymentKit/PaymentKit/PKCardCVC.h"; sourceTree = "<group>"; };
+		1836762718929F1800DF87D9 /* PKCardCVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKCardCVC.m; path = "../../stripe-ios/Stripe/Vendor/PaymentKit/PaymentKit/PKCardCVC.m"; sourceTree = "<group>"; };
+		1836762818929F1800DF87D9 /* PKCardExpiry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKCardExpiry.h; path = "../../stripe-ios/Stripe/Vendor/PaymentKit/PaymentKit/PKCardExpiry.h"; sourceTree = "<group>"; };
+		1836762918929F1800DF87D9 /* PKCardExpiry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKCardExpiry.m; path = "../../stripe-ios/Stripe/Vendor/PaymentKit/PaymentKit/PKCardExpiry.m"; sourceTree = "<group>"; };
+		1836762A18929F1800DF87D9 /* PKCardNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKCardNumber.h; path = "../../stripe-ios/Stripe/Vendor/PaymentKit/PaymentKit/PKCardNumber.h"; sourceTree = "<group>"; };
+		1836762B18929F1800DF87D9 /* PKCardNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKCardNumber.m; path = "../../stripe-ios/Stripe/Vendor/PaymentKit/PaymentKit/PKCardNumber.m"; sourceTree = "<group>"; };
+		1836762C18929F1800DF87D9 /* PKCardType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKCardType.h; path = "../../stripe-ios/Stripe/Vendor/PaymentKit/PaymentKit/PKCardType.h"; sourceTree = "<group>"; };
+		1836762F18929F1800DF87D9 /* PKUSAddressZip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKUSAddressZip.h; path = "../../stripe-ios/Stripe/Vendor/PaymentKit/PaymentKit/PKUSAddressZip.h"; sourceTree = "<group>"; };
+		1836763018929F1800DF87D9 /* PKUSAddressZip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKUSAddressZip.m; path = "../../stripe-ios/Stripe/Vendor/PaymentKit/PaymentKit/PKUSAddressZip.m"; sourceTree = "<group>"; };
 		18556107185E52D5000DBE36 /* myBiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myBiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1855610A185E52D5000DBE36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1855610C185E52D5000DBE36 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -312,10 +310,10 @@
 		1887764F188760AB00CE604E /* line__0000s_0104_user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line__0000s_0104_user.png; sourceTree = "<group>"; };
 		18877650188760AB00CE604E /* line__0000s_0102_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line__0000s_0102_box.png; sourceTree = "<group>"; };
 		18877664188766F600CE604E /* linesmall_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linesmall_info.png; sourceTree = "<group>"; };
-		18AA7B091892BEE100151DE9 /* PKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKView.h; sourceTree = "<group>"; };
-		18AA7B0A1892BEE100151DE9 /* PKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKView.m; sourceTree = "<group>"; };
-		18AA7B0F1892CAD800151DE9 /* PKTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKTextField.m; sourceTree = "<group>"; };
-		18AA7B101892CAD800151DE9 /* PKTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKTextField.h; sourceTree = "<group>"; };
+		18AA7B091892BEE100151DE9 /* PKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKView.h; path = "../../stripe-ios/Stripe/Vendor/PaymentKit/PaymentKit/PKView.h"; sourceTree = "<group>"; };
+		18AA7B0A1892BEE100151DE9 /* PKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKView.m; path = "../../stripe-ios/Stripe/Vendor/PaymentKit/PaymentKit/PKView.m"; sourceTree = "<group>"; };
+		18AA7B0F1892CAD800151DE9 /* PKTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKTextField.m; path = "../../stripe-ios/Stripe/Vendor/PaymentKit/PaymentKit/PKTextField.m"; sourceTree = "<group>"; };
+		18AA7B101892CAD800151DE9 /* PKTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKTextField.h; path = "../../stripe-ios/Stripe/Vendor/PaymentKit/PaymentKit/PKTextField.h"; sourceTree = "<group>"; };
 		18FC5FE91884C6BA009577EB /* ShippingInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShippingInfoViewController.h; sourceTree = "<group>"; };
 		18FC5FEA1884C6BA009577EB /* ShippingInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShippingInfoViewController.m; sourceTree = "<group>"; };
 		18FC5FEE1885AF70009577EB /* flower_art_332.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flower_art_332.jpg; sourceTree = "<group>"; };
@@ -424,7 +422,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				18148CEB185E837300E9999A /* SystemConfiguration.framework in Frameworks */,
-				18148CE9185E836700E9999A /* StoreKit.framework in Frameworks */,
 				18148CE7185E835700E9999A /* QuartzCore.framework in Frameworks */,
 				18148CE5185E834900E9999A /* MobileCoreServices.framework in Frameworks */,
 				18148CE3185E833300E9999A /* libz.1.1.3.dylib in Frameworks */,
@@ -536,31 +533,6 @@
 			name = Classes;
 			sourceTree = "<group>";
 		};
-		1836762118929F1800DF87D9 /* PaymentKit */ = {
-			isa = PBXGroup;
-			children = (
-				18AA7B091892BEE100151DE9 /* PKView.h */,
-				18AA7B0A1892BEE100151DE9 /* PKView.m */,
-				1836762218929F1800DF87D9 /* PKAddressZip.h */,
-				1836762318929F1800DF87D9 /* PKAddressZip.m */,
-				1836762418929F1800DF87D9 /* PKCard.h */,
-				1836762518929F1800DF87D9 /* PKCard.m */,
-				1836762618929F1800DF87D9 /* PKCardCVC.h */,
-				1836762718929F1800DF87D9 /* PKCardCVC.m */,
-				1836762818929F1800DF87D9 /* PKCardExpiry.h */,
-				1836762918929F1800DF87D9 /* PKCardExpiry.m */,
-				1836762A18929F1800DF87D9 /* PKCardNumber.h */,
-				1836762B18929F1800DF87D9 /* PKCardNumber.m */,
-				18AA7B0F1892CAD800151DE9 /* PKTextField.m */,
-				18AA7B101892CAD800151DE9 /* PKTextField.h */,
-				1836762C18929F1800DF87D9 /* PKCardType.h */,
-				1836762F18929F1800DF87D9 /* PKUSAddressZip.h */,
-				1836763018929F1800DF87D9 /* PKUSAddressZip.m */,
-			);
-			name = PaymentKit;
-			path = "../../stripe-ios/Stripe/Vendor/PaymentKit/PaymentKit";
-			sourceTree = "<group>";
-		};
 		185560FE185E52D5000DBE36 = {
 			isa = PBXGroup;
 			children = (
@@ -587,7 +559,6 @@
 			children = (
 				18148CF4185E8C2F00E9999A /* Parse.framework */,
 				18148CEA185E837300E9999A /* SystemConfiguration.framework */,
-				18148CE8185E836700E9999A /* StoreKit.framework */,
 				18148CE6185E835700E9999A /* QuartzCore.framework */,
 				18148CE4185E834900E9999A /* MobileCoreServices.framework */,
 				18148CE2185E833300E9999A /* libz.1.1.3.dylib */,
@@ -655,7 +626,23 @@
 		185C824C187627300014EB35 /* Stripe */ = {
 			isa = PBXGroup;
 			children = (
-				1836762118929F1800DF87D9 /* PaymentKit */,
+				18AA7B091892BEE100151DE9 /* PKView.h */,
+				18AA7B0A1892BEE100151DE9 /* PKView.m */,
+				1836762218929F1800DF87D9 /* PKAddressZip.h */,
+				1836762318929F1800DF87D9 /* PKAddressZip.m */,
+				1836762418929F1800DF87D9 /* PKCard.h */,
+				1836762518929F1800DF87D9 /* PKCard.m */,
+				1836762618929F1800DF87D9 /* PKCardCVC.h */,
+				1836762718929F1800DF87D9 /* PKCardCVC.m */,
+				1836762818929F1800DF87D9 /* PKCardExpiry.h */,
+				1836762918929F1800DF87D9 /* PKCardExpiry.m */,
+				1836762A18929F1800DF87D9 /* PKCardNumber.h */,
+				1836762B18929F1800DF87D9 /* PKCardNumber.m */,
+				18AA7B0F1892CAD800151DE9 /* PKTextField.m */,
+				18AA7B101892CAD800151DE9 /* PKTextField.h */,
+				1836762C18929F1800DF87D9 /* PKCardType.h */,
+				1836762F18929F1800DF87D9 /* PKUSAddressZip.h */,
+				1836763018929F1800DF87D9 /* PKUSAddressZip.m */,
 				185C824D187627300014EB35 /* STPCard.h */,
 				185C824E187627300014EB35 /* STPCard.m */,
 				185C824F187627300014EB35 /* STPToken.h */,
@@ -964,6 +951,14 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Will Alvarez";
 				TargetAttributes = {
+					18556106185E52D5000DBE36 = {
+						DevelopmentTeam = X3XB3Q6Q82;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
 					1855612A185E52D5000DBE36 = {
 						TestTargetID = 18556106185E52D5000DBE36;
 					};
