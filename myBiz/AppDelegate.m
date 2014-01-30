@@ -7,15 +7,59 @@
 //
 
 #import "AppDelegate.h"
+#import "BTTheme.h"
+#import "BTForestTheme.h"
 
 @implementation AppDelegate
+
+/*
+- (void)customizeAppearance
+{
+    // Create resizable images
+    UIImage *gradientImage44 = [[UIImage imageNamed:@"flower_art_332"]
+                                resizableImageWithCapInsets:UIEdgeInsetsMake(0, 0, 0, 0)];
+    UIImage *gradientImage32 = [[UIImage imageNamed:@"flower_art_332"]
+                                resizableImageWithCapInsets:UIEdgeInsetsMake(0, 0, 0, 0)];
+    
+    // Set the background image for *all* UINavigationBars
+    [[UINavigationBar appearance] setBackgroundImage:gradientImage44
+                                       forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setBackgroundImage:gradientImage32
+                                       forBarMetrics:UIBarMetricsLandscapePhone];
+    
+    // Customize the title text for *all* UINavigationBars
+    [[UINavigationBar appearance] setTitleTextAttributes:
+     [NSDictionary dictionaryWithObjectsAndKeys:
+      [UIColor colorWithRed:255.0/255.0 green:255.0/255.0 blue:255.0/255.0 alpha:1.0],
+      NSForegroundColorAttributeName,
+      [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.8],
+      NSShadowAttributeName,
+      [NSValue valueWithUIOffset:UIOffsetMake(0, -1)],
+      NSShadowAttributeName,
+      [UIFont fontWithName:@"Arial-Bold" size:0.0],
+      NSFontAttributeName,
+      nil]];
+}
+ */
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    // Register our Parse Application.
+
+	[Parse setApplicationId:@"ATjtWMM3YXuluss429dEimZF8FKcMFZUzFVC1xtp"
+                  clientKey:@"9mSVh46YlWQDAJuWAvNSuUvEmbJ2lkAuDxodMQO6"];
+    
+    // Initialize Parse's Facebook Utilities singleton. This uses the FacebookAppID we specified in our App bundle's plist.
+	[PFFacebookUtils initializeFacebook];
+    
+    // set app's Appearance-Theme
+    [BTThemeManager setSharedTheme:[BTForestTheme new]];
     return YES;
 }
-							
+
+
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -41,6 +85,23 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+/*
+- (BOOL) application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    return [PFFacebookUtils handleOpenURL:url];
+}
+
+*/
+
+/*
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    return [PFFacebookUtils handleOpenURL:url];
+}
+ */
+
+// two-in one? for the above two?
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    return [FBAppCall handleOpenURL:url sourceApplication:sourceApplication];
 }
 
 @end
