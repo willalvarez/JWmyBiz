@@ -12,7 +12,7 @@
 #import "BTTheme.h"
 
 //Live KEY
-//#define STRIPE_TEST_PUBLIC_KEY @"pk_live_7OpifX1eqYDmiElAyCHiGfkQ"
+
 //Test KEY
 #define STRIPE_TEST_PUBLIC_KEY @"pk_test_qoNf5gbCNMTNbioJG9JSJdrw"
 #define STRIPE_TEST_POST_URL
