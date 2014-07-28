@@ -10,10 +10,10 @@
 
 @interface ImageWallProductCell : UITableViewCell
 @property (strong, nonatomic) IBOutlet UIImageView *image;
-
 @property (nonatomic, strong) UIButton *sizeButton;
-@property (strong, nonatomic) IBOutlet UIButton *orderButton;
 
+
+@property (nonatomic, strong) UIButton *orderButton;
 @property (nonatomic, strong) UILabel *priceLabel;
 
 @end

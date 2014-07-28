@@ -44,6 +44,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    NSLog(@"didFinishLaunchingWithOptions:");
     // Override point for customization after application launch.
     // Register our Parse Application.
 

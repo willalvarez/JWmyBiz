@@ -12,9 +12,9 @@
 #import "BTTheme.h"
 
 //Live KEY
-#define STRIPE_TEST_PUBLIC_KEY @"pk_live_7OpifX1eqYDmiElAyCHiGfkQ"
+//#define STRIPE_TEST_PUBLIC_KEY @"pk_live_7OpifX1eqYDmiElAyCHiGfkQ"
 //Test KEY
-//#define STRIPE_TEST_PUBLIC_KEY @"pk_test_qoNf5gbCNMTNbioJG9JSJdrw"
+#define STRIPE_TEST_PUBLIC_KEY @"pk_test_qoNf5gbCNMTNbioJG9JSJdrw"
 #define STRIPE_TEST_POST_URL
 
 
@@ -181,6 +181,8 @@
 }
 
 - (void)postStripeToken:(NSString* )token {
+    
+    
     //  self.hud.labelText = @"Charging...";
     //   take self.totalCharges from checkoutCart
     NSArray *itemsOrdered = self.checkoutCart.productsInCart;
@@ -202,10 +204,6 @@
         [myitems addObject: lineColor];
         
     }
-    
-    
-    
-    
     
     NSMutableArray *arr =  [[NSMutableArray alloc] initWithObjects:myitems, nil];
     NSNumber *total = [self.checkoutCart total];
@@ -262,14 +260,19 @@
                                           cancelButtonTitle:@"OK"
                                           otherButtonTitles:nil];
     [alert show];
+ 
     
     JWCheckoutCart* checkoutCart = [JWCheckoutCart sharedInstance];
     [checkoutCart clearCart];
     
-    
-    
+    [[[self.tabBarController.viewControllers objectAtIndex:0]tabBarItem]setEnabled:TRUE];
+    [[[self.tabBarController.viewControllers objectAtIndex:1]tabBarItem]setEnabled:TRUE];
+    [[[self.tabBarController.viewControllers objectAtIndex:2]tabBarItem]setEnabled:TRUE];
+   
+    [self.tabBarController setSelectedIndex:0];
     [self.navigationController popToRootViewControllerAnimated:YES];
-}
+    
+  }
 
 - (void)chargeDidNotSuceed {
     //2
@@ -279,6 +282,10 @@
                                           cancelButtonTitle:@"OK"
                                           otherButtonTitles:nil];
     [alert show];
+    [[[self.tabBarController.viewControllers objectAtIndex:0]tabBarItem]setEnabled:TRUE];
+    [[[self.tabBarController.viewControllers objectAtIndex:1]tabBarItem]setEnabled:TRUE];
+    [[[self.tabBarController.viewControllers objectAtIndex:2]tabBarItem]setEnabled:TRUE];
+    [self.tabBarController setSelectedIndex:0];
 }
 
 

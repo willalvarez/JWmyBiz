@@ -132,12 +132,10 @@ CommsDelegate> {
     }
 
 
-    //Remove Login from tab bar items
-    [[[self.tabBarController.viewControllers objectAtIndex:0]tabBarItem]setEnabled:FALSE];
     // Disable Detail View until a selection is made
+    [[[self.tabBarController.viewControllers objectAtIndex:0]tabBarItem]setEnabled:TRUE];
     [[[self.tabBarController.viewControllers objectAtIndex:1]tabBarItem]setEnabled:TRUE];
     [[[self.tabBarController.viewControllers objectAtIndex:2]tabBarItem]setEnabled:TRUE];
-    [[[self.tabBarController.viewControllers objectAtIndex:3]tabBarItem]setEnabled:TRUE];
     
     // set customization of appearance
     [BTThemeManager customizeView:self.view];

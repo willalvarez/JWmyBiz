@@ -63,7 +63,7 @@
     
     // Default transition to Products view, reset add to cart button
     
-    [self.tabBarController setSelectedIndex:2];
+    [self.tabBarController setSelectedIndex:0];
 }
 
 

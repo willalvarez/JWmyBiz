@@ -7,7 +7,7 @@
 //
 
 #import "CustomContainerViewController.h"
-
+#import "BTTheme.h"
 @interface CustomContainerViewController () <CommsDelegate>
 {
     
@@ -28,13 +28,24 @@
     }
     return self;
 }
-
+- (void)viewWillAppear:(BOOL)animated
+{
+    [[[self.tabBarController.viewControllers objectAtIndex:0]tabBarItem]setEnabled:TRUE];
+    [[[self.tabBarController.viewControllers objectAtIndex:1]tabBarItem]setEnabled:FALSE];
+    [[[self.tabBarController.viewControllers objectAtIndex:2]tabBarItem]setEnabled:FALSE];
+    
+    [BTThemeManager customizeView:self.view];
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     NSArray *array = [self viewControllers];
 NSLog(@"The content of array is%@",array);
 	// Do any additional setup after loading the view.
+    // Reset the DataStore so that we are starting from a fresh Login
+	// as we could have come to this screen from the Logout navigation
+	[[DataStore instance] reset];
+    
     
 }
 

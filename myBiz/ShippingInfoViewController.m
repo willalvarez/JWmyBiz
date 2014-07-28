@@ -34,6 +34,10 @@
 
 - (void)viewWillAppear:(BOOL)animated {
      [BTThemeManager customizeView:self.view];
+    [[[self.tabBarController.viewControllers objectAtIndex:0]tabBarItem]setEnabled:FALSE];
+    [[[self.tabBarController.viewControllers objectAtIndex:1]tabBarItem]setEnabled:FALSE];
+    [[[self.tabBarController.viewControllers objectAtIndex:2]tabBarItem]setEnabled:FALSE];
+
 }
 - (void)viewDidLoad
 {

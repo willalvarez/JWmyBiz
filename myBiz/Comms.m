@@ -207,14 +207,14 @@ NSString * const N_ImageUploaded = @"N_ImageUploaded";
 {
 	// 1
 	// Get the complete list of friend ids
-	NSArray *meAndMyFriends = [DataStore instance].fbFriends.allKeys;
+	//NSArray *meAndMyFriends = [DataStore instance].fbFriends.allKeys;
     
 	// 2
 	// Create a PFQuery, Parse Query object
 	PFQuery *imageQuery = [PFQuery queryWithClassName:@"Items"];
 	[imageQuery orderByAscending:@"createdAt"];
 	[imageQuery whereKey:@"updatedAt" greaterThan:lastUpdate];
-	[imageQuery whereKey:@"userFBId" containedIn:meAndMyFriends];
+//	[imageQuery whereKey:@"userFBId" containedIn:meAndMyFriends];
 	[imageQuery findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
 		// 3
 		__block NSDate *newLastUpdate = lastUpdate;

@@ -74,7 +74,7 @@
     
 	// Did we login successfully ?
 	if (loggedIn) {        
-       [self.tabBarController setSelectedIndex:2];
+       [self.tabBarController setSelectedIndex:1];
 	} else {
 		// Show error alert
 		[[[UIAlertView alloc] initWithTitle:@"Login Failed"

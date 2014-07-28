@@ -52,19 +52,46 @@ static NSString *CellIdentifier = @"Cell";
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+    [[[self.tabBarController.viewControllers objectAtIndex:0]tabBarItem]setEnabled:TRUE];
     [[[self.tabBarController.viewControllers objectAtIndex:1]tabBarItem]setEnabled:TRUE];
     [[[self.tabBarController.viewControllers objectAtIndex:2]tabBarItem]setEnabled:TRUE];
     self.theTextField.delegate = self;
-    
+
+
   //  [self.tableView reloadData];
     
    self.checkoutCart = [JWCheckoutCart sharedInstance];
     [self.tableView reloadData];
-    
+    ///////
+    ////// Don't display if cart is empty
+
+    if ([self.checkoutCart total] > 0)
+    {
+        // Make sure cart is not empty
+        
+        UIAlertView * alert = [[UIAlertView alloc] initWithTitle:@"Shop first!"
+                                                         message:@"Your shopping cart is empty"
+                                                        delegate:nil
+                                               cancelButtonTitle:@"OK"
+                                               otherButtonTitles:nil];
+        
+        if (self.checkoutCart.productsInCart.count == 0) {
+            [alert show];
+         //   [self.tabBarController setSelectedIndex:0];
+            [self.navigationController popToRootViewControllerAnimated:YES];
+     
+            
+        }
+        
+    }
+
+    //////
+    //////
     [BTThemeManager customizeView:self.view];
     
     
 }
+
 /*
 - (IBAction)acceptPayment:(id)sender {
     [self performSegueWithIdentifier:@"creditCardPayment" sender:self];
@@ -189,6 +216,7 @@ static NSString *CellIdentifier = @"Cell";
         
        JWSubtotalCell *cell2 = [self.tableView dequeueReusableCellWithIdentifier:@"TotalCell"];
         cell2.totalLabel.text = [NSString stringWithFormat:@"$%@", [self.checkoutCart total]];
+
         return cell2;
         
     }

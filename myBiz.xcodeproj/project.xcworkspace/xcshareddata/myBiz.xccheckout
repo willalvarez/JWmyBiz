@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>C4F2459E-A4E7-4DAB-9636-4310B6A26324</string>
+	<string>B956AFEC-0FE2-4B8B-B151-11DA5BD3C9C6</string>
 	<key>IDESourceControlProjectName</key>
 	<string>myBiz</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>E5595E37-E34E-45F5-8815-1B48B33615A2</key>
-		<string>ssh://github/wcalvarez/myBiz.git</string>
+		<key>91FE8E95-7AC8-4BA4-B16A-6C19E9F3539E</key>
+		<string>ssh://github.com/wcalvarez/myBiz.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>myBiz.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>E5595E37-E34E-45F5-8815-1B48B33615A2</key>
+		<key>91FE8E95-7AC8-4BA4-B16A-6C19E9F3539E</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github/wcalvarez/myBiz.git</string>
+	<string>ssh://github.com/wcalvarez/myBiz.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>E5595E37-E34E-45F5-8815-1B48B33615A2</string>
+	<string>91FE8E95-7AC8-4BA4-B16A-6C19E9F3539E</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>E5595E37-E34E-45F5-8815-1B48B33615A2</string>
+			<string>91FE8E95-7AC8-4BA4-B16A-6C19E9F3539E</string>
 			<key>IDESourceControlWCCName</key>
 			<string>myBiz</string>
 		</dict>
