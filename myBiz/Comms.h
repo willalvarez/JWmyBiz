@@ -14,7 +14,7 @@ extern NSString * const N_ImageUploaded;
 
 @protocol CommsDelegate <NSObject>
 @optional
-- (void) commsDidLogin:(BOOL)loggedIn;
+//- (void) commsDidLogin:(BOOL)loggedIn;
 - (void) commsUploadImageProgress:(short)progress;
 - (void) commsUploadImageComplete:(BOOL)success;
 - (void) commsDidGetNewWallImages:(NSDate *)updated;
@@ -22,7 +22,8 @@ extern NSString * const N_ImageUploaded;
 @end
 
 @interface Comms : NSObject
-+ (void) login:(id<CommsDelegate>)delegate;
+
+//+ (void) login:(id<CommsDelegate>)delegate;
 + (void) uploadImage:(UIImage *)image withComment:(NSString *)comment forDelegate:(id<CommsDelegate>)delegate;
 + (void) uploadItem:(UIImage *)image withNSArray:(NSArray *)myDataArray forDelegate:(id<CommsDelegate>)delegate;
 + (void) getWallImagesSince:(NSDate *)lastUpdate forDelegate:(id<CommsDelegate>)delegate;

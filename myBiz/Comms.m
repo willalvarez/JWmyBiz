@@ -13,7 +13,7 @@ NSString * const N_ImageDownloaded = @"N_ImageDownloaded";
 NSString * const N_ImageUploaded = @"N_ImageUploaded";
 
 @implementation Comms
-
+/*
 + (void) login:(id<CommsDelegate>)delegate
 {
 	// Basic User information and your friends are part of the standard permissions
@@ -73,7 +73,7 @@ NSString * const N_ImageUploaded = @"N_ImageUploaded";
 		}
 	}];
 }
-
+*/
 + (void) uploadImage:(UIImage *)image withComment:(NSString *)comment forDelegate:(id<CommsDelegate>)delegate
 {
     // 1

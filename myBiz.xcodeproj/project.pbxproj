@@ -28,10 +28,7 @@
 		18148CE7185E835700E9999A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18148CE6185E835700E9999A /* QuartzCore.framework */; };
 		18148CEB185E837300E9999A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18148CEA185E837300E9999A /* SystemConfiguration.framework */; };
 		18148CF5185E8C2F00E9999A /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18148CF4185E8C2F00E9999A /* Parse.framework */; };
-		18148D01185EC42700E9999A /* FBLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 18148CFD185EC42700E9999A /* FBLogin.png */; };
 		18148D02185EC42700E9999A /* FBLogin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18148CFE185EC42700E9999A /* FBLogin@2x.png */; };
-		18148D03185EC42700E9999A /* FBShare.png in Resources */ = {isa = PBXBuildFile; fileRef = 18148CFF185EC42700E9999A /* FBShare.png */; };
-		18148D04185EC42700E9999A /* FBShare@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18148D00185EC42700E9999A /* FBShare@2x.png */; };
 		18148D0E185ECE7900E9999A /* NSOperationQueue+SharedQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 18148D0D185ECE7800E9999A /* NSOperationQueue+SharedQueue.m */; };
 		18148D15185F421100E9999A /* Comms.m in Sources */ = {isa = PBXBuildFile; fileRef = 18148D14185F421100E9999A /* Comms.m */; };
 		1834280F186A54F300B3AA66 /* JWCheckoutCart.m in Sources */ = {isa = PBXBuildFile; fileRef = 1834280E186A54F300B3AA66 /* JWCheckoutCart.m */; };
@@ -50,8 +47,6 @@
 		1855612F185E52D5000DBE36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1855610E185E52D5000DBE36 /* UIKit.framework */; };
 		18556137185E52D5000DBE36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18556135185E52D5000DBE36 /* InfoPlist.strings */; };
 		18556139185E52D5000DBE36 /* myBizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18556138185E52D5000DBE36 /* myBizTests.m */; };
-		1855614E185E5AC8000DBE36 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1855614D185E5AC8000DBE36 /* FacebookSDK.framework */; };
-		18556150185E5BB7000DBE36 /* FBUserSettingsViewResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1855614F185E5BB6000DBE36 /* FBUserSettingsViewResources.bundle */; };
 		18556154185E5BF3000DBE36 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18556153185E5BF3000DBE36 /* Accounts.framework */; };
 		18556156185E5C16000DBE36 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18556155185E5C16000DBE36 /* libsqlite3.dylib */; };
 		18556158185E5C38000DBE36 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18556157185E5C38000DBE36 /* Security.framework */; };
@@ -63,7 +58,6 @@
 		185C8289187627300014EB35 /* STPView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C8252187627300014EB35 /* STPView.m */; };
 		185C828A187627300014EB35 /* Stripe.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C8255187627300014EB35 /* Stripe.m */; };
 		185C828B187627300014EB35 /* StripeError.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C8257187627300014EB35 /* StripeError.m */; };
-		185C82B618764FBD0014EB35 /* FBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C82B518764FBD0014EB35 /* FBLoginViewController.m */; };
 		186B628A18687A46009B68D1 /* ButtonOrder.png in Resources */ = {isa = PBXBuildFile; fileRef = 186B628618687A46009B68D1 /* ButtonOrder.png */; };
 		186B628B18687A46009B68D1 /* ButtonOrder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186B628718687A46009B68D1 /* ButtonOrder@2x.png */; };
 		186B628C18687A46009B68D1 /* ButtonOrderPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 186B628818687A46009B68D1 /* ButtonOrderPressed.png */; };
@@ -80,6 +74,8 @@
 		18877651188760AB00CE604E /* line__0000s_0104_user.png in Resources */ = {isa = PBXBuildFile; fileRef = 1887764F188760AB00CE604E /* line__0000s_0104_user.png */; };
 		18877652188760AB00CE604E /* line__0000s_0102_box.png in Resources */ = {isa = PBXBuildFile; fileRef = 18877650188760AB00CE604E /* line__0000s_0102_box.png */; };
 		18877665188766F600CE604E /* linesmall_info.png in Resources */ = {isa = PBXBuildFile; fileRef = 18877664188766F600CE604E /* linesmall_info.png */; };
+		18C043BC19872A9A007CF79D /* FBMissingSymbols.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C043BB19872A9A007CF79D /* FBMissingSymbols.m */; };
+		18C0468519872FD9007CF79D /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C0468419872FD9007CF79D /* FacebookSDK.framework */; };
 		18FC5FEB1884C6BA009577EB /* ShippingInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC5FEA1884C6BA009577EB /* ShippingInfoViewController.m */; };
 		18FC5FEF1885AF70009577EB /* flower_art_332.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18FC5FEE1885AF70009577EB /* flower_art_332.jpg */; };
 		18FC60021886D370009577EB /* BTPrettyInPinkTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC60011886D370009577EB /* BTPrettyInPinkTheme.m */; };
@@ -255,8 +251,6 @@
 		18556134185E52D5000DBE36 /* myBizTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "myBizTests-Info.plist"; sourceTree = "<group>"; };
 		18556136185E52D5000DBE36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18556138185E52D5000DBE36 /* myBizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myBizTests.m; sourceTree = "<group>"; };
-		1855614D185E5AC8000DBE36 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Users/willalvarez/Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
-		1855614F185E5BB6000DBE36 /* FBUserSettingsViewResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FBUserSettingsViewResources.bundle; path = ../../Users/willalvarez/Documents/FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FBUserSettingsViewResources.bundle; sourceTree = "<group>"; };
 		18556153185E5BF3000DBE36 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		18556155185E5C16000DBE36 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		18556157185E5C38000DBE36 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -274,8 +268,6 @@
 		185C8255187627300014EB35 /* Stripe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stripe.m; sourceTree = "<group>"; };
 		185C8256187627300014EB35 /* StripeError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StripeError.h; sourceTree = "<group>"; };
 		185C8257187627300014EB35 /* StripeError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StripeError.m; sourceTree = "<group>"; };
-		185C82B418764F930014EB35 /* FBLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBLoginViewController.h; sourceTree = "<group>"; };
-		185C82B518764FBD0014EB35 /* FBLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginViewController.m; sourceTree = "<group>"; };
 		186B628618687A46009B68D1 /* ButtonOrder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonOrder.png; sourceTree = "<group>"; };
 		186B628718687A46009B68D1 /* ButtonOrder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ButtonOrder@2x.png"; sourceTree = "<group>"; };
 		186B628818687A46009B68D1 /* ButtonOrderPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonOrderPressed.png; sourceTree = "<group>"; };
@@ -297,6 +289,9 @@
 		1887764F188760AB00CE604E /* line__0000s_0104_user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line__0000s_0104_user.png; sourceTree = "<group>"; };
 		18877650188760AB00CE604E /* line__0000s_0102_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line__0000s_0102_box.png; sourceTree = "<group>"; };
 		18877664188766F600CE604E /* linesmall_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linesmall_info.png; sourceTree = "<group>"; };
+		18C043BA19872A9A007CF79D /* FBMissingSymbols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBMissingSymbols.h; sourceTree = "<group>"; };
+		18C043BB19872A9A007CF79D /* FBMissingSymbols.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBMissingSymbols.m; sourceTree = "<group>"; };
+		18C0468419872FD9007CF79D /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Users/willalvarez/Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		18C29D2018A91D27005272BB /* holder.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = holder.sh; sourceTree = "<group>"; };
 		18FC5FE91884C6BA009577EB /* ShippingInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShippingInfoViewController.h; sourceTree = "<group>"; };
 		18FC5FEA1884C6BA009577EB /* ShippingInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShippingInfoViewController.m; sourceTree = "<group>"; };
@@ -422,6 +417,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C0468519872FD9007CF79D /* FacebookSDK.framework in Frameworks */,
 				18148CEB185E837300E9999A /* SystemConfiguration.framework in Frameworks */,
 				18148CE7185E835700E9999A /* QuartzCore.framework in Frameworks */,
 				18148CE5185E834900E9999A /* MobileCoreServices.framework in Frameworks */,
@@ -435,7 +431,6 @@
 				18556156185E5C16000DBE36 /* libsqlite3.dylib in Frameworks */,
 				18556154185E5BF3000DBE36 /* Accounts.framework in Frameworks */,
 				1855610D185E52D5000DBE36 /* CoreGraphics.framework in Frameworks */,
-				1855614E185E5AC8000DBE36 /* FacebookSDK.framework in Frameworks */,
 				1855610F185E52D5000DBE36 /* UIKit.framework in Frameworks */,
 				1855610B185E52D5000DBE36 /* Foundation.framework in Frameworks */,
 			);
@@ -506,8 +501,6 @@
 			isa = PBXGroup;
 			children = (
 				185C824C187627300014EB35 /* Stripe */,
-				185C82B418764F930014EB35 /* FBLoginViewController.h */,
-				185C82B518764FBD0014EB35 /* FBLoginViewController.m */,
 				18132532186ED59A00BD2369 /* UIProductViewCell.m */,
 				1806223918690CE400C9494E /* Main.storyboard */,
 				1836761E1891FEDD00DF87D9 /* WStripeViewController.h */,
@@ -545,6 +538,8 @@
 				181325381871AFE800BD2369 /* JWProducts.m */,
 				1882B7BD1862590E000C22B8 /* DataStore.m */,
 				18148D14185F421100E9999A /* Comms.m */,
+				18C043BA19872A9A007CF79D /* FBMissingSymbols.h */,
+				18C043BB19872A9A007CF79D /* FBMissingSymbols.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -574,6 +569,7 @@
 		18556109185E52D5000DBE36 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18C0468419872FD9007CF79D /* FacebookSDK.framework */,
 				18148CF4185E8C2F00E9999A /* Parse.framework */,
 				18148CEA185E837300E9999A /* SystemConfiguration.framework */,
 				18148CE6185E835700E9999A /* QuartzCore.framework */,
@@ -586,8 +582,6 @@
 				18556157185E5C38000DBE36 /* Security.framework */,
 				18556155185E5C16000DBE36 /* libsqlite3.dylib */,
 				18556153185E5BF3000DBE36 /* Accounts.framework */,
-				1855614F185E5BB6000DBE36 /* FBUserSettingsViewResources.bundle */,
-				1855614D185E5AC8000DBE36 /* FacebookSDK.framework */,
 				1855610A185E52D5000DBE36 /* Foundation.framework */,
 				1855610C185E52D5000DBE36 /* CoreGraphics.framework */,
 				1855610E185E52D5000DBE36 /* UIKit.framework */,
@@ -988,6 +982,7 @@
 			knownRegions = (
 				en,
 				Base,
+				he,
 			);
 			mainGroup = 185560FE185E52D5000DBE36;
 			productRefGroup = 18556108185E52D5000DBE36 /* Products */;
@@ -1011,7 +1006,6 @@
 				18FC609C1886D3B7009577EB /* stepper_forest_divider_uns@2x.png in Resources */,
 				18FC60B41886D3B7009577EB /* barbutton_pretty_done_uns@2x.png in Resources */,
 				18FC60911886D3B7009577EB /* topShadow_forest.png in Resources */,
-				18556150185E5BB7000DBE36 /* FBUserSettingsViewResources.bundle in Resources */,
 				18FC60C71886D3B7009577EB /* stepper_pretty_divider_uns.png in Resources */,
 				18062237186903AA00C9494E /* 80-shopping-cart.png in Resources */,
 				18FC5FEF1885AF70009577EB /* flower_art_332.jpg in Resources */,
@@ -1035,7 +1029,6 @@
 				18FC60C61886D3B7009577EB /* stepper_pretty_divider_sel@2x.png in Resources */,
 				18FC60B51886D3B7009577EB /* button_pretty_sel.png in Resources */,
 				18FC608D1886D3B7009577EB /* nav_forest_landscape.png in Resources */,
-				18148D01185EC42700E9999A /* FBLogin.png in Resources */,
 				18FC60B91886D3B7009577EB /* nav_pretty_landscape.png in Resources */,
 				1887763A188720FA00CE604E /* line__0000s_0050_cart.png in Resources */,
 				18FC60BE1886D3B7009577EB /* topShadow_pretty@2x.png in Resources */,
@@ -1081,7 +1074,6 @@
 				18FC60C01886D3B7009577EB /* stepper_pretty_bg_sel@2x.png in Resources */,
 				18FC60A71886D3B7009577EB /* barbutton_pretty_landscape_uns.png in Resources */,
 				18556126185E52D5000DBE36 /* Images.xcassets in Resources */,
-				18148D03185EC42700E9999A /* FBShare.png in Resources */,
 				18FC60901886D3B7009577EB /* nav_forest_portrait@2x.png in Resources */,
 				18FC60A41886D3B7009577EB /* bg_prettyinpink@2x.png in Resources */,
 				18FC60951886D3B7009577EB /* stepper_forest_bg_uns.png in Resources */,
@@ -1100,7 +1092,6 @@
 				18FC60BF1886D3B7009577EB /* stepper_pretty_bg_sel.png in Resources */,
 				185C82471875B4B70014EB35 /* creditCardBg@2x.png in Resources */,
 				18877652188760AB00CE604E /* line__0000s_0102_box.png in Resources */,
-				18148D04185EC42700E9999A /* FBShare@2x.png in Resources */,
 				18FC60A21886D3B7009577EB /* tree_on@2x.png in Resources */,
 				18FC608F1886D3B7009577EB /* nav_forest_portrait.png in Resources */,
 				18FC60A11886D3B7009577EB /* tree_on.png in Resources */,
@@ -1168,9 +1159,9 @@
 				18FFD1E0189AB7B2004286A6 /* PKTextField.m in Sources */,
 				185C828A187627300014EB35 /* Stripe.m in Sources */,
 				18556117185E52D5000DBE36 /* main.m in Sources */,
+				18C043BC19872A9A007CF79D /* FBMissingSymbols.m in Sources */,
 				18FC600B1886D385009577EB /* BTForestTheme.m in Sources */,
 				1813252D186E105D00BD2369 /* CustomContainerViewController.m in Sources */,
-				185C82B618764FBD0014EB35 /* FBLoginViewController.m in Sources */,
 				185C8288187627300014EB35 /* STPToken.m in Sources */,
 				1882B7BE1862590E000C22B8 /* DataStore.m in Sources */,
 				185C828B187627300014EB35 /* StripeError.m in Sources */,
@@ -1303,6 +1294,8 @@
 					/Users/willalvarez/Downloads,
 					/Users/willalvarez/.Trash,
 					/iOSApps/myBiz,
+					"$(PROJECT_DIR)/myBiz/FacebookSDK",
+					"$(PROJECT_DIR)/myBiz/FacebookSDK/FBAudienceNetwork",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "myBiz/myBiz-Prefix.pch";
@@ -1329,6 +1322,8 @@
 					/Users/willalvarez/Downloads,
 					/Users/willalvarez/.Trash,
 					/iOSApps/myBiz,
+					"$(PROJECT_DIR)/myBiz/FacebookSDK",
+					"$(PROJECT_DIR)/myBiz/FacebookSDK/FBAudienceNetwork",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "myBiz/myBiz-Prefix.pch";
